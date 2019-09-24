@@ -1,6 +1,9 @@
 <?php
 
-    $to = "hallieacalhoun@gmail.com";
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	// your other code here
+
+    $to = 'hallieacalhoun@gmail.com';
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
@@ -20,5 +23,5 @@
 
 
     $send = mail($to, $subject, $body, $headers);
-
+}
 ?>
