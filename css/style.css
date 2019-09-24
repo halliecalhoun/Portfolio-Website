@@ -862,6 +862,7 @@ a.active {
 
 
 
+
 /* BOX PORTFOLIO */
 
 
@@ -1437,7 +1438,9 @@ fieldset {
     color: #425BB5;
 }
 
-
+a {
+    color: white;
+}
 /* Responsive media queries
 ==================================================*/
 
