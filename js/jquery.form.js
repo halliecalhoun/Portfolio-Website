@@ -12,6 +12,15 @@
 ;(function($) {
 "use strict";
 
+$(document).ready(function() {
+    $('#contact-form').on('submit', function(e) {
+        e.preventDefault(); // <-- important
+        $(this).ajaxSubmit({
+            target: '#output'
+        });
+    });
+});
+
 /*
     Usage Note:
     -----------
