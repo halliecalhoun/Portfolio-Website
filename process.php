@@ -1,11 +1,11 @@
 <?php
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
 	// your other code here
 
     $to = 'hallieacalhoun@gmail.com';
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
+    $from = $_POST['email'];
+    $name = $_POST['name'];
     $headers = "From: $from";
     $subject = "You have a message.";
 
@@ -19,9 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $body = "Here is what was sent:\r\n"; 
 
-    foreach($fields as $a => $b){$body .= $b." : ".$_REQUEST[$a]."\r\n"; }
+    foreach($fields as $a => $b){$body .= $b." : ".$_POST[$a]."\r\n"; }
 
 
     $send = mail($to, $subject, $body, $headers);
-}
+
 ?>
