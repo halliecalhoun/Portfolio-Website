@@ -1,1 +1,21 @@
-# Portfolio-Website
+# Hallie Calhoun Portfolio
+
+
+<h2 align="left">
+
+[Link to Deployed Website](https://halliecalhoun.github.io/Portfolio-Website/)
+
+</h2>
+
+<h2 align="center">
+<img src="./img/Hallie Calhoun Portfolio.gif" alt="GIF of Portfolio" width='100%' />
+</h2>
+
+<br>
+
+
+
+
+
+
+
