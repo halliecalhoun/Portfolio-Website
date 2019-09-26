@@ -8,7 +8,7 @@
 </h2>
 
 <h2 align="center">
-<img src="./img/Hallie Calhoun Portfolio.gif" alt="GIF of Portfolio" width='100%' />
+<img src="./img/Portfolio.gif" alt="GIF of Portfolio" width='100%' />
 </h2>
 
 <br>
