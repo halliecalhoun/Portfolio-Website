@@ -1146,7 +1146,10 @@ a.active {
     padding: 0.25em 1em 0.2em 1em;
 }
 
-
+.bullets {
+    font-size: 16px;
+    max-width: 900px;
+}
 /* parallax2 section
 ==================================================*/
 
@@ -1168,6 +1171,10 @@ a.active {
     /* background-attachment: scroll; */
 }
 
+#gif-title { 
+    padding-bottom: 25px;
+}
+
 .table-cell {
     display: table-cell;
     vertical-align: middle;
@@ -1180,6 +1187,31 @@ a.active {
 }
 
 /* end parallax2 */
+
+
+/* recommendations */
+
+.blockquote-footer {
+    font-size: 14px;
+}
+
+.blockquote {
+    font-size: 14px;
+}
+.card-header {
+    font-size: 14px;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+#recommendations-content {
+    padding-top: 35px;
+}
+
+
 
 /* projects section
 ==================================================*/
@@ -1333,7 +1365,8 @@ a.active {
     border: white;
     border-width: 2px;
     border-style: solid;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
     margin: 5px 8px 5px 8px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -1342,7 +1375,8 @@ a.active {
 }
 
 .portfolio_item:hover{
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 3px 15px 0 rgba(0,0,0,0.30);
+    /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 3px 15px 0 rgba(0,0,0,0.30); */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
     opacity: .75;
     border-color: #425BB5;
 }
@@ -1360,7 +1394,8 @@ a.active {
 }
 
 .modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0); */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
     border: none;
 }
 
