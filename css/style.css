@@ -57,6 +57,13 @@ h4 {
     font-weight: 700;
 }
 
+/* p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    
+} */
+
 h4:before {
     position: absolute;
     width: 30px;
@@ -74,8 +81,8 @@ h4:before {
 
 body {
     font-family: inherit;
-    font-size: 14px;
-    line-height: 24px;
+    /* font-size: 14px;
+    line-height: 24px; */
 }
 
 .size-50 {
@@ -208,7 +215,8 @@ h5 {
     width: 100%;
     background: url(../img/3.png);
     background-size: cover;
-
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
@@ -536,8 +544,9 @@ b i:last-child {
 button:focus { outline: none; }
 
 p { 
-	line-height: 1.8;
-	margin-bottom: 20px;
+	/* line-height: 1.6; */
+    margin-bottom: 20px;
+    font-size: 15.5px;
 }
 
 .tm-section-title {
@@ -958,6 +967,27 @@ a.active {
     margin: 0 auto;
 }
 
+#headshot {
+    max-width: 130px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    margin-left: -10px;
+}
+
+#about-title-text {
+    /* float: left; */
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+}
+
+#about-number {
+    float: left;
+    position: relative;
+}
+
 .about-border {
     position: absolute;
     border-left: 10px solid rgb(66, 91, 181);
@@ -969,8 +999,24 @@ a.active {
     z-index: 0
 }
 
-#about p {
+.about-border-larger {
+    position: absolute;
+    border-left: 10px solid rgb(66, 91, 181);
+    width: 300px;
+    height: 125px;
+    top: -5px;
+    margin-right: 15px;
+    left: -25px;
+    z-index: 0
+}
+
+/* #about p {
     font-size: 16px;
+} */
+
+#about-image {
+    max-width: 180px;
+    float: left;
 }
 
 
@@ -1004,7 +1050,7 @@ a.active {
     width: 100%;
 }
 
-.about-border {
+/* .about-border {
     position: absolute;
     border-left: 10px solid rgb(66, 91, 181);
     width: 300px;
@@ -1013,13 +1059,17 @@ a.active {
     margin-right: 15px;
     left: -25px;
     z-index: 0
-}
+} */
 
 #gif p {
     font-size: 16px;
 }
 
-
+/* education */
+#education {
+    background: #fafafa;
+    padding: 120px;
+}
 
 /* experience section
 ==================================================*/
@@ -1211,6 +1261,10 @@ a.active {
     padding-top: 35px;
 }
 
+#recommendations {
+    background: #fafafa;
+}
+
 
 
 /* projects section
@@ -1218,7 +1272,7 @@ a.active {
 
 #projects {
     padding: 100px 0;
-    background: #fafafa
+    background: white;
     
 }
 
@@ -1438,6 +1492,9 @@ a.active {
     background-size: cover;
     color: white;
     /* background: #f3f3f3 */
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .contact-label {
@@ -1602,6 +1659,9 @@ a {
             #home,
             .disply-table {
                 height: 600px;
+            }
+            .about-border {
+                width: 265px;
             }
             .about-border {
                 width: 265px;
