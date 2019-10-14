@@ -15,7 +15,6 @@ jQuery(document).ready(function($){
 		revealAnimationDelay = 1500;
 	
 	initHeadline();
-	
 
 	function initHeadline() {
 		//insert <i> element for each letter of a changing word

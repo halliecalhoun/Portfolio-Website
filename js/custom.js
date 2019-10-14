@@ -12,7 +12,6 @@ $(window).load(function () {
 
 $(document).ready(function () {
     "use strict";
-
     // scroll menu
     var sections = $('.section'),
         nav = $('.navbar-fixed-top,footer'),
@@ -45,7 +44,6 @@ $(document).ready(function () {
 
         return false;
     });
-
 
     // Menu opacity
     if ($(window).scrollTop() > 80) {
@@ -140,7 +138,6 @@ $(document).ready(function () {
                 message: {
                     required: true
                 }
-
             },
             messages: {
                 name: {

@@ -83,6 +83,7 @@ body {
     font-family: inherit;
     /* font-size: 14px;
     line-height: 24px; */
+    margin: 0 auto;
 }
 
 .size-50 {
@@ -184,6 +185,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     color: #393939;
+    margin: 0 auto;
     
 }
 
@@ -232,7 +234,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #425BB5 !important;
 }
 
 .box-intro h5 {
@@ -960,7 +962,9 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 120px 0;
+    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .about-img-div img {
@@ -1023,14 +1027,14 @@ a.active {
 /* gif section
 ==================================================*/
 
-#gif {
+/* #gif { */
     /* padding: 120px 0; */
     /* margin-left: 150px; */
-}
+/* } */
 
-#gif-content {
-    padding: 120px 0px 120px 0px;
-}
+/* #gif-content { */
+    /* padding: 120px 0px 120px 0px; */
+/* } */
 
 #skills-list {
     list-style-type: circle;  
@@ -1048,6 +1052,12 @@ a.active {
 .about-img-div img {
     margin-left: 50px;
     width: 100%;
+}
+
+#skills-gif {
+    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* .about-border {
@@ -1068,7 +1078,9 @@ a.active {
 /* education */
 #education {
     background: #fafafa;
-    padding: 120px;
+    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* experience section
@@ -1077,7 +1089,9 @@ a.active {
 #experience {
     
     background: #fafafa;
-    padding: 120px;
+    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .experience-row {
@@ -1263,6 +1277,8 @@ a.active {
 
 #recommendations {
     background: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -1271,8 +1287,10 @@ a.active {
 ==================================================*/
 
 #projects {
-    padding: 100px 0;
+    /* padding: 100px; */
     background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -1404,8 +1422,8 @@ a.active {
 }
 
 .portfolio_item img {
-    height: 200px;
-    width: 365px;
+    /* height: 200px;
+    width: 365px; */
     
     
 }
@@ -1487,7 +1505,7 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 120px 0;
+    /* padding: 100px; */
     background: url(../img/64.png);
     background-size: cover;
     color: white;
@@ -1495,6 +1513,8 @@ a.active {
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .contact-label {

@@ -4,8 +4,8 @@
 	// your other code here
 
     $to = 'hallieacalhoun@gmail.com';
-    $from = $_POST['email'];
-    $name = $_POST['name'];
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
     $headers = "From: $from";
     $subject = "You have a message.";
 
@@ -19,7 +19,7 @@
 
     $body = "Here is what was sent:\r\n"; 
 
-    foreach($fields as $a => $b){$body .= $b." : ".$_POST[$a]."\r\n"; }
+    foreach($fields as $a => $b){$body .= $b." : ".$_REQUEST[$a]."\r\n"; }
 
 
     $send = mail($to, $subject, $body, $headers);
