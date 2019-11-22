@@ -1624,6 +1624,30 @@ fieldset {
     width: 100%;
 }
 
+
+.social-intro {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0px;
+
+}
+
+.social-intro li {
+    text-align: center;
+}
+
+.social-intro li a {
+    /* color: #333; */
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    margin: 10px;
+}
+
+
+
 .social {
     padding-left: 0;
     list-style: none;
