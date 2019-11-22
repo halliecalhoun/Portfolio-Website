@@ -1171,9 +1171,9 @@ a.active {
     font-weight: 700;
 }
 
-.timeline-event-copy p:not(.timeline-event-thumbnail) {
+/* .timeline-event-copy p:not(.timeline-event-thumbnail) { */
     /* padding-bottom: 1.2em; */
-}
+/* } */
 
 .timeline-event-icon {
     -webkit-transition: -webkit-transform 0.2s ease-in;
@@ -1421,12 +1421,10 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
+/* .portfolio_item img { */
     /* height: 200px;
     width: 365px; */
-    
-    
-}
+/* } */
 .portfolio_item {
     /* -webkit-filter: grayscale(100%); */
     /* filter: grayscale(100%); */
