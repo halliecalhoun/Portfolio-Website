@@ -966,11 +966,11 @@ img.hero {
 }
 
 #headshot {
-    max-width: 130px;
+    max-width: 120px;
+    border-radius: 50%;
     float: left;
     position: relative;
-    margin-right: 5px;
-    margin-left: -10px;
+    margin-right: 20px;
 }
 
 #about-title-text {
