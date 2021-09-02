@@ -57,6 +57,7 @@ h4 {
     font-weight: 700;
 }
 
+
 /* p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -175,7 +176,6 @@ b {
 }
 
 
-
 /* typography- box
 ==================================================*/
 
@@ -186,16 +186,13 @@ body {
     line-height: 1.8;
     color: #393939;
     margin: 0 auto;
-    
 }
-
 
 .box-headline h1 {
     color: #ffffff;
     font-size: 60px;
     text-transform: uppercase;
     text-align: left;
-    
 }
 
 h3 {
@@ -220,7 +217,6 @@ h5 {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
 
 .box-intro .table-cell {
     display: table-cell;
@@ -249,8 +245,6 @@ b i:last-child {
 .box-intro h1 {
     color: #ffffff;
 }
-
-
 
 
 /* About page
@@ -291,7 +285,6 @@ b i:last-child {
     color: #555;
     text-decoration: none;
 }
-
 
 
 /* mouse effect */
@@ -388,6 +381,7 @@ b i:last-child {
     white-space: nowrap;
     left: 0;
     top: 0;
+    right: 0;
 }
 
 .box-words-wrapper b.is-visible {
@@ -527,155 +521,165 @@ b i:last-child {
 }
 
 
-
-
-
 /* PAGE ONE RANDOM CSS */
 
-.tm-flex { display: flex; }
+.tm-flex {
+    display: flex;
+}
 
 .parallax-window {
     background: url(../img/apple-cellphone-cellular-249324.jpg);
-	background-position: center;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
 }
 
-button:focus { outline: none; }
+button:focus {
+    outline: none;
+}
 
-p { 
-	/* line-height: 1.6; */
+p {
+    /* line-height: 1.6; */
     margin-bottom: 20px;
     font-size: 15.5px;
 }
 
 .tm-section-title {
-	font-size: 2.6rem;
-    margin-bottom: 2rem;	
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
 }
 
 .tm-site-title-wrap {
-	padding-top: 80px;
-	padding-bottom: 10px;
+    padding-top: 80px;
+    padding-bottom: 10px;
 }
 
-.tm-site-title { 
-	border: 2px solid #888481;
-	color: #676362;
-	display: inline-block;
-	font-size: 3rem; 
-	padding: 30px 30px;
+.tm-site-title {
+    border: 2px solid #888481;
+    color: #676362;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 30px 30px;
 }
 
 .tm-textbox {
-	max-width: 600px;
-	width: 100%;
-	padding: 50px;
-	overflow: auto;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px;
+    overflow: auto;
 }
 
-.tm-textbox-full-height { min-height: 950px; }
+.tm-textbox-full-height {
+    min-height: 950px;
+}
 
 .tm-white-bg {
-	background-color: white;
-	color: #676362;
+    background-color: white;
+    color: #676362;
 }
 
-.tm-translucent-white-bg { background-color: rgba(255,255,255,0.58); }
-
-.tm-btn,.tm-btn:visited {
-	display: block;
-	float: right;
-	font-size: 1.8rem;
-	font-weight: 300;
-	color: white;
-	background-color: #983333;
-	padding: 15px 15px;
-	cursor: pointer;
-	border: none;
+.tm-translucent-white-bg {
+    background-color: rgba(255, 255, 255, 0.58);
 }
 
-.tm-btn:hover,.tm-btn:focus {
-	color: white;
-	background-color: #c9302c;
+.tm-btn,
+.tm-btn:visited {
+    display: block;
+    float: right;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+    background-color: #983333;
+    padding: 15px 15px;
+    cursor: pointer;
+    border: none;
 }
 
-.tm-green-text { color: #96C700; }
-.tm-blue-text { color: #3690FD; }
-.tm-red-text { color: #983333; }
+.tm-btn:hover,
+.tm-btn:focus {
+    color: white;
+    background-color: #c9302c;
+}
+
+.tm-green-text {
+    color: #96C700;
+}
+
+.tm-blue-text {
+    color: #3690FD;
+}
+
+.tm-red-text {
+    color: #983333;
+}
 
 .tm-content-box {
-	overflow: auto;
-	height: 100%;
-	max-width: 600px;
-	width:  100%;
-	padding: 100px 60px 100px;	
-	display: -ms-flexbox;	
-	display: -webkit-flex;	
-	display: flex;   
-	-webkit-flex-direction: column;   
-	    -ms-flex-direction: column;   
-	        flex-direction: column;
+    overflow: auto;
+    height: 100%;
+    max-width: 600px;
+    width: 100%;
+    padding: 100px 60px 100px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
-
-.tm-gallery-content { padding-top: 10px; }
+.tm-gallery-content {
+    padding-top: 10px;
+}
 
 .tm-content-box-right {
-	margin-left: auto;
-	margin-right: 0;
+    margin-left: auto;
+    margin-right: 0;
 }
 
-.tm-small-font { font-size: 1rem; }
+.tm-small-font {
+    font-size: 1rem;
+}
 
 .tm-page-content-width {
-	max-width: 1200px;
-	margin: 0 auto;	
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 100%;	
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
 }
 
-.tm-padding-b {	padding-bottom: 30px; }
-.tm-page-content-width,.tm-content-box { min-height: 1150px; }
+.tm-padding-b {
+    padding-bottom: 30px;
+}
+
+.tm-page-content-width,
+.tm-content-box {
+    min-height: 1150px;
+}
 
 .tm-flex-col {
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     -ms-flex-direction: column;
-        -webkit-flex-direction: column;
-            flex-direction: column;    
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }
 
 .tm-media-icon {
-	margin-right: 30px;
-	margin-bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
 }
+
 
 /* IE fix */
-.tm-media-body { 
-	flex: 1 1 auto; 
-	width: 100%; 
+
+.tm-media-body {
+    flex: 1 1 auto;
+    width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* preloader
@@ -873,13 +877,7 @@ a.active {
 }
 
 
-
-
 /* BOX PORTFOLIO */
-
-
-
-
 
 
 /* parallax1 section
@@ -894,6 +892,7 @@ a.active {
     text-align: right;
     color: black;
 }
+
 #home {
     /* background: url(../img/black-and-white-device-electronics-331684.jpg); */
     background: url(../img/apple-cellphone-cellular-249324.jpg);
@@ -908,7 +907,6 @@ a.active {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    
 }
 
 .disply-table {
@@ -917,45 +915,41 @@ a.active {
 }
 
 
-
 /* hero */
 
 #hero {
     height: 600px;
     margin-top: 100px;
     margin-bottom: 100px;
-    
-  }
-  
-  img.hero {
+}
+
+img.hero {
     /* margin-top: 50px; */
     margin-bottom: 50px;
     padding: 20px;
     height: 550px;
-  
-  }
+}
 
-  #heroText {
+#heroText {
     margin-top: 20vh;
 }
 
 #introText {
     margin-right: 50px;
-  }
-  
-  #nameText {
+}
+
+#nameText {
     margin-right: 60px;
-  }
-  
-  #titleText {
+}
+
+#titleText {
     margin-right: 50px;
-  }
-  
-  #intro.section {
+}
+
+#intro.section {
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-
+}
 
 
 /* about section
@@ -1014,6 +1008,7 @@ a.active {
     z-index: 0
 }
 
+
 /* #about p {
     font-size: 16px;
 } */
@@ -1027,19 +1022,32 @@ a.active {
 /* gif section
 ==================================================*/
 
+
 /* #gif { */
-    /* padding: 120px 0; */
-    /* margin-left: 150px; */
+
+
+/* padding: 120px 0; */
+
+
+/* margin-left: 150px; */
+
+
 /* } */
 
+
 /* #gif-content { */
-    /* padding: 120px 0px 120px 0px; */
+
+
+/* padding: 120px 0px 120px 0px; */
+
+
 /* } */
 
 #skills-list {
-    list-style-type: circle;  
-    font-size: medium;  
+    list-style-type: circle;
+    font-size: medium;
 }
+
 
 /* #gif-title {
     padding-top: 120px;
@@ -1060,6 +1068,7 @@ a.active {
     padding-bottom: 100px;
 }
 
+
 /* .about-border {
     position: absolute;
     border-left: 10px solid rgb(66, 91, 181);
@@ -1075,7 +1084,9 @@ a.active {
     font-size: 16px;
 }
 
+
 /* education */
+
 #education {
     background: #fafafa;
     /* padding: 100px; */
@@ -1083,11 +1094,11 @@ a.active {
     padding-bottom: 100px;
 }
 
+
 /* experience section
 ==================================================*/
 
 #experience {
-    
     background: #fafafa;
     /* padding: 100px; */
     padding-top: 100px;
@@ -1171,8 +1182,13 @@ a.active {
     font-weight: 700;
 }
 
+
 /* .timeline-event-copy p:not(.timeline-event-thumbnail) { */
-    /* padding-bottom: 1.2em; */
+
+
+/* padding-bottom: 1.2em; */
+
+
 /* } */
 
 .timeline-event-icon {
@@ -1214,6 +1230,8 @@ a.active {
     font-size: 16px;
     max-width: 900px;
 }
+
+
 /* parallax2 section
 ==================================================*/
 
@@ -1226,6 +1244,7 @@ a.active {
     text-align: right;
     color: black;
 }
+
 #skills {
     background: url(../img/apple-cellphone-cellular-249324.jpg);
     background-size: cover;
@@ -1235,20 +1254,20 @@ a.active {
     /* background-attachment: scroll; */
 }
 
-#gif-title { 
+#gif-title {
     padding-bottom: 25px;
 }
 
 .table-cell {
     display: table-cell;
     vertical-align: middle;
-    
 }
 
 .disply-table {
     display: table;
     height: 100vh;
 }
+
 
 /* end parallax2 */
 
@@ -1262,12 +1281,13 @@ a.active {
 .blockquote {
     font-size: 14px;
 }
+
 .card-header {
     font-size: 14px;
 }
 
 .card {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 
@@ -1282,7 +1302,6 @@ a.active {
 }
 
 
-
 /* projects section
 ==================================================*/
 
@@ -1291,7 +1310,6 @@ a.active {
     background: white;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
 
 .portfolio .categories-grid span {
@@ -1423,10 +1441,16 @@ a.active {
     text-align: center;
 }
 
+
 /* .portfolio_item img { */
-    /* height: 200px;
+
+
+/* height: 200px;
     width: 365px; */
+
+
 /* } */
+
 .portfolio_item {
     /* -webkit-filter: grayscale(100%); */
     /* filter: grayscale(100%); */
@@ -1438,23 +1462,21 @@ a.active {
     border-width: 2px;
     border-style: solid;
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
     margin: 5px 8px 5px 8px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     margin: 15px 0px 15px 0px;
 }
 
-.portfolio_item:hover{
+.portfolio_item:hover {
     /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 3px 15px 0 rgba(0,0,0,0.30); */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
     opacity: .75;
     border-color: #425BB5;
 }
-    
-    
-
 
 .portfolio-padding {
     padding: 20px 0;
@@ -1467,7 +1489,7 @@ a.active {
 
 .modal-content {
     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0); */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 8px 12px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
     border: none;
 }
 
@@ -1626,12 +1648,10 @@ fieldset {
     width: 100%;
 }
 
-
 .social-intro {
     padding-left: 0;
     list-style: none;
     margin-top: 0px;
-
 }
 
 .social-intro li {
@@ -1648,13 +1668,10 @@ fieldset {
     margin: 10px;
 }
 
-
-
 .social {
     padding-left: 0;
     list-style: none;
     margin-top: 0px;
-
 }
 
 .social li {
@@ -1677,61 +1694,59 @@ fieldset {
 a {
     color: white;
 }
+
+
 /* Responsive media queries
 ==================================================*/
 
+@media screen and (max-width: 991px) {
+    .portfolio .categories-grid .categories ul li a {
+        padding: 0 2px;
+    }
+}
 
-        @media screen and (max-width: 991px) {
-            .portfolio .categories-grid .categories ul li a {
-                padding: 0 2px;
-                
-            }
-        }
-        
-        
-        @media screen and (max-width: 768px) {
-            .timeline-event-copy {
-                width: 90%;
-                left: 2em;
-            }
-            .portfolio .categories-grid .categories ul li {
-                list-style: none;
-                margin: 10px 0;
-                width: 20%;
-            }
+@media screen and (max-width: 768px) {
+    .timeline-event-copy {
+        width: 90%;
+        left: 2em;
+    }
+    .portfolio .categories-grid .categories ul li {
+        list-style: none;
+        margin: 10px 0;
+        width: 20%;
+    }
+}
 
-        }
-        
-        @media screen and (max-width: 500px) {
-            h1 {
-                font-family: inherit;
-                font-size: 50px;
-                line-height: 50px;
-            }
-            #home,
-            .disply-table {
-                height: 600px;
-            }
-            .about-border {
-                width: 265px;
-            }
-            .about-border {
-                width: 265px;
-            }
-            .portfolio .categories-grid .categories ul li {
-                list-style: none;
-                margin: 10px 0;
-            }
-        }
-        
-        @media screen and (max-width: 420px) {
-            nav li {
-                margin: 6px;
-            }
-            nav li a {
-                font-size: 10px;
-            }
-        }
+@media screen and (max-width: 500px) {
+    h1 {
+        font-family: inherit;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #home,
+    .disply-table {
+        height: 600px;
+    }
+    .about-border {
+        width: 265px;
+    }
+    .about-border {
+        width: 265px;
+    }
+    .portfolio .categories-grid .categories ul li {
+        list-style: none;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    nav li {
+        margin: 6px;
+    }
+    nav li a {
+        font-size: 10px;
+    }
+}
 
 
 /* @media (max-width: 991px) {
