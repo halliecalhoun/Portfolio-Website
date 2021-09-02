@@ -965,6 +965,12 @@ img.hero {
     margin: 0 auto;
 }
 
+#about-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 #headshot {
     max-width: 120px;
     border-radius: 50%;
@@ -1749,6 +1755,22 @@ a {
         margin: 0 auto;
         justify-content: center;
         display: flex;
+    }
+    .about-img-div img {
+        margin-left: 0px;
+    }
+    h4 {
+        letter-spacing: 1.2px;
+    }
+    #about-title-text {
+        padding-top: 0px;
+    }
+    #headshot {
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+    #about-container {
+        flex-direction: column;
     }
 }
 
