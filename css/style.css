@@ -1718,9 +1718,10 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-    h1 {
+    h1,
+    .box-headline {
         font-family: inherit;
-        font-size: 50px;
+        font-size: 30px;
         line-height: 50px;
     }
     #home,
@@ -1736,6 +1737,19 @@ a {
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+    #about-title-text {
+        display: inline-flex;
+    }
+    .box-headline,
+    .letters,
+    .rotate-2 {
+        width: 100vw;
+        height: auto;
+        margin: 0 auto;
+        left: 0;
+        /* position: absolute; */
+        display: flex;
     }
 }
 
