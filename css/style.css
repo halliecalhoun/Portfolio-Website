@@ -1747,8 +1747,7 @@ a {
         width: 100vw;
         height: auto;
         margin: 0 auto;
-        left: 0;
-        /* position: absolute; */
+        justify-content: center;
         display: flex;
     }
 }
