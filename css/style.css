@@ -1547,8 +1547,12 @@ img.hero {
     background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 100px;
+}
 
-    background: black;
+@media screen and (max-width: 420px) {
+    #contact {
+        background: black;
+    }
 }
 
 .contact-label {
