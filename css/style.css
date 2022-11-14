@@ -1552,6 +1552,7 @@ img.hero {
 @media screen and (max-width: 420px) {
     #contact {
         background: black;
+        height: 100%;
     }
 }
 
