@@ -87,6 +87,10 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    overflow-x: hidden;
+}
+
 .size-50 {
     font-size: 50px;
     line-height: 50px
@@ -827,7 +831,7 @@ header {
     text-align: center;
     -webkit-transition: all .5s;
     transition: all .5s;
-    height: 65px;
+    height: 70px;
 }
 
 nav ul {
@@ -1543,6 +1547,8 @@ img.hero {
     background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    background: black;
 }
 
 .contact-label {
@@ -1776,7 +1782,7 @@ a {
 
 @media screen and (max-width: 420px) {
     nav li {
-        margin: 6px;
+        margin: 0px 6px;
     }
     nav li a {
         font-size: 10px;
