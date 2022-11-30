@@ -859,7 +859,7 @@ nav li a {
 }
 
 header.navbar-fixed-top.bg-nav a {
-    color: white;
+    /* color: white; */
 }
 
 .bg-nav {
