@@ -886,6 +886,9 @@ a.active {
     color: #425BB5;
 }
 
+header.navbar-fixed-top.bg-nav a {
+    color: black;
+}
 
 /* BOX PORTFOLIO */
 
