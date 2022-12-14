@@ -890,6 +890,18 @@ header.navbar-fixed-top.bg-nav a {
     color: black;
 }
 
+header.navbar-fixed-top.bg-nav a:active {
+    color: #425BB5;
+}
+
+header.navbar-fixed-top.bg-nav a:hover {
+    color: #425BB5;
+}
+
+header.navbar-fixed-top.bg-nav a:focus {
+    color: #425BB5;
+}
+
 /* BOX PORTFOLIO */
 
 
