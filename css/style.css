@@ -864,7 +864,8 @@ header.navbar-fixed-top.bg-nav a {
 
 .bg-nav {
     background: #fff;
-    border-bottom: 1px solid #f3f3f3
+    border-bottom: 1px solid #f3f3f3;
+    color: black;
 }
 
 .bg-nav ul {
