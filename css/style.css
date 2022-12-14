@@ -882,10 +882,6 @@ a:hover {
     text-decoration: none;
 }
 
-a.active {
-    color: #425BB5;
-}
-
 header.navbar-fixed-top.bg-nav a {
     color: black;
 }
@@ -899,6 +895,10 @@ header.navbar-fixed-top.bg-nav a:hover {
 }
 
 header.navbar-fixed-top.bg-nav a:focus {
+    color: #425BB5;
+}
+
+a.active {
     color: #425BB5;
 }
 
