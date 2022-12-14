@@ -855,11 +855,11 @@ nav li a {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: normal;
-    color: black;
+    /* color: black; */
 }
 
 header.navbar-fixed-top.bg-nav a {
-    /* color: white; */
+    color: white;
 }
 
 .bg-nav {
