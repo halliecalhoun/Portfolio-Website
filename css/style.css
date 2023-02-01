@@ -1855,3 +1855,23 @@ a {
         font-size: 10px;
     }
 } */
+
+
+/* DELETE - TESTING BOOKING WIDGET */
+div#search-widget_IO312PWQ {
+    visibility: initial;
+    --guesty-brand-primary: #6AC1FF;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid lightgray;
+    padding: 0 20px;
+    max-width: 28%;
+    border-radius: 5px;
+}
+
+section.guesty-widget__item {
+    margin: 8px 0;
+}
+
+/* END DELETE BOOKING WIDGET */
